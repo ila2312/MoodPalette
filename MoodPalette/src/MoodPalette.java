@@ -166,4 +166,3 @@ public class MoodPalette extends Application {
     }
 
 }
-

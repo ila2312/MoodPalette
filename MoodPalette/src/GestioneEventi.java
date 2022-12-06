@@ -26,9 +26,14 @@ public class GestioneEventi {
 
     }
 
+    GestioneEventi() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public void SceltaPalette(String scelta) { //prende in ingresso il nome o l indice della palette scelta
         //richiama il gestoreDB per aggiornare il numero di like della palette scelta
         database.aggiornaPalette("scelta");
     }
+
 
 }
